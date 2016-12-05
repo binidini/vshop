@@ -1,0 +1,5 @@
+sylius.customer.update: Клиент успешно изменен
+sylius.order.delete: Заказ успешно удален
+sylius.resource.add: Товар добавлен
+sylius.resource.remove: Товар удален
+
