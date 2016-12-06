@@ -1,5 +1,3 @@
-Order: Заказ
-
 sylius.ui.about: О нас
 sylius.ui.by_position: По умолчанию
 sylius.ui.checkout: Оформить заказ
@@ -10,4 +8,6 @@ sylius.ui.faqs: ЧаВо
 sylius.ui.item.choice: '{0} |[1,Inf], %count% шт.'
 sylius.ui.order_total: Итого
 sylius.ui.subtotal: Сумма
+sylius.ui.search_products: Поиск товаров
+sylius.ui.view_your_store: Перейти в магазин
 sylius.ui.your_store: Магазин Виктис
