@@ -1,13 +1,18 @@
 sylius.ui.about: О нас
+sylius.ui.browse_all_products: Просмотреть все товары
 sylius.ui.by_position: По умолчанию
 sylius.ui.checkout: Оформить заказ
 sylius.ui.customer_care: Наши контакты
 sylius.ui.customer_login: Вход
+sylius.ui.delete: Удалить
 sylius.ui.delivery_and_shipping: Доставка и оплата
 sylius.ui.faqs: ЧаВо
 sylius.ui.item.choice: '{0} |[1,Inf], %count% шт.'
+sylius.ui.manage_categorization_of_your_products: Настроить категорию товаров
+sylius.ui.manage_taxons: Настроить каталог
 sylius.ui.order_total: Итого
 sylius.ui.subtotal: Сумма
+sylius.ui.taxons: Каталог
 sylius.ui.search_products: Поиск товаров
 sylius.ui.view_your_store: Перейти в магазин
 sylius.ui.your_store: Магазин Виктис
