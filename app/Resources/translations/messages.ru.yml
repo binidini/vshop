@@ -2,6 +2,7 @@ sylius.ui.about: О нас
 sylius.ui.browse_all_products: Просмотреть все товары
 sylius.ui.by_position: По умолчанию
 sylius.ui.checkout: Оформить заказ
+sylius.ui.clear: Сброс
 sylius.ui.customer_care: Наши контакты
 sylius.ui.customer_login: Вход
 sylius.ui.delete: Удалить
