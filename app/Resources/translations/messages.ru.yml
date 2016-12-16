@@ -2,6 +2,7 @@ sylius.form.collection.delete: Удалить
 sylius.form.product_attribute.position: Номер позиции
 
 sylius.ui.about: О нас
+sylius.ui.attributes: Характеристики
 sylius.ui.browse_all_products: Просмотреть все товары
 sylius.ui.by_position: По умолчанию
 sylius.ui.checkout: Оформить заказ
