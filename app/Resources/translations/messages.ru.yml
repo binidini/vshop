@@ -1,5 +1,6 @@
 sylius.form.collection.delete: Удалить
 sylius.form.product_attribute.position: Номер позиции
+sylius.form.promotion_rule.total_of_items_from_taxon.taxon: Каталог
 
 sylius.ui.about: О нас
 sylius.ui.attributes: Характеристики
