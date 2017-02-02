@@ -1,4 +1,9 @@
+sylius.form.collection.delete: Удалить
+sylius.form.product_attribute.position: Номер позиции
+sylius.form.promotion_rule.total_of_items_from_taxon.taxon: Каталог
+
 sylius.ui.about: О нас
+sylius.ui.attributes: Характеристики
 sylius.ui.browse_all_products: Просмотреть все товары
 sylius.ui.by_position: По умолчанию
 sylius.ui.checkout: Оформить заказ
@@ -10,8 +15,10 @@ sylius.ui.delivery_and_shipping: Доставка и оплата
 sylius.ui.faqs: ЧаВо
 sylius.ui.item.choice: '{0} |[1,Inf], %count% шт.'
 sylius.ui.manage_categorization_of_your_products: Настроить категорию товаров
+sylius.ui.manage_configuration_options_of_your_products: Настроить опцию продукта
 sylius.ui.manage_taxons: Настроить каталог
 sylius.ui.order_total: Итого
+sylius.ui.process_your_orders: Ваши заказы
 sylius.ui.subtotal: Сумма
 sylius.ui.taxons: Каталог
 sylius.ui.search_products: Поиск товаров

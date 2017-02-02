@@ -1,0 +1,10 @@
+{
+  "name": "vendor/sylius-theme-grigliato",
+  "type": "sylius-theme",
+  "description": "Sylius Theme Grigliato",
+  "extra": {
+    "sylius-theme": {
+      "description": "Grigliato Theme"
+    }
+  }
+}
