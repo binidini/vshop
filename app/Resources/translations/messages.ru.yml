@@ -22,5 +22,6 @@ sylius.ui.process_your_orders: Ваши заказы
 sylius.ui.subtotal: Сумма
 sylius.ui.taxons: Каталог
 sylius.ui.search_products: Поиск товаров
+sylius.ui.variant: Элемент
 sylius.ui.view_your_store: Перейти в магазин
 sylius.ui.your_store: Магазин Виктис

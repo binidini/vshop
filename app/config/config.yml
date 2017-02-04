@@ -106,7 +106,7 @@ liip_imagine:
                     position: bottomright
         sylius_shop_product_large_thumbnail:
             filters:
-                thumbnail: { size: [550, 412], mode: outbound }
+                thumbnail: { size: [550, 550], mode: outbound } #550 412
                 watermark:
                     # path to the watermark file (prepended with "%kernel.root_dir%")
                     image: ../web/logo.png
