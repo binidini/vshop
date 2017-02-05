@@ -18,3 +18,16 @@ sylius_admin:
 sylius_api:
     resource: "@SyliusApiBundle/Resources/config/routing/main.yml"
     prefix: /api
+
+
+sylius_shop_product_index:
+    path: /taxons/{slug}
+    methods: [GET]
+    defaults:
+        _controller: sylius.controller.product:indexAction
+        _sylius:
+            template: "@SyliusShop/Product/index.html.twig"
+            grid: sylius_shop_product
+            paginate: 9
+    requirements:
+        slug: .+
