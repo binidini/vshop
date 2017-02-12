@@ -1,0 +1,13 @@
+<div class="ui three column stackable grid">
+    <div class="row">
+        {% for taxon in taxons %}
+        <div class="column">
+            {% include '@SyliusShop/Taxon/_box.html.twig' %}
+        </div>
+        {% if 0 == loop.index % 3 %}
+    </div>
+    <div class="row">
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
