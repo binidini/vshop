@@ -114,3 +114,6 @@ liip_imagine:
                     size: 1
                     # set the position of the watermark
                     position: center
+        sylius_shop_taxon_thumbnail:
+            filters:
+                thumbnail: { size: [450, 318], mode: outbound }

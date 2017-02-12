@@ -1,9 +1,11 @@
+sylius.form.checkout.addressing.different_billing_address: Использовать другой адрес для выставления счета?
 sylius.form.collection.delete: Удалить
 sylius.form.product_attribute.position: Номер позиции
 sylius.form.promotion_rule.total_of_items_from_taxon.taxon: Каталог
 sylius.form.variant.depth: Длина
 
 sylius.ui.about: О нас
+sylius.ui.accept: Принять
 sylius.ui.attributes: Характеристики
 sylius.ui.browse_all_products: Просмотреть все товары
 sylius.ui.by_position: По умолчанию
@@ -13,16 +15,21 @@ sylius.ui.customer_care: Наши контакты
 sylius.ui.customer_login: Вход
 sylius.ui.delete: Удалить
 sylius.ui.delivery_and_shipping: Доставка и оплата
-sylius.ui.faqs: ЧаВо
+sylius.ui.faqs: Вопросы и ответы
 sylius.ui.item.choice: '{0} |[1,Inf], %count% шт.'
 sylius.ui.manage_categorization_of_your_products: Настроить категорию товаров
 sylius.ui.manage_configuration_options_of_your_products: Настроить опцию продукта
 sylius.ui.manage_taxons: Настроить каталог
+sylius.ui.my_account: Личный кабинет
 sylius.ui.order_total: Итого
+sylius.ui.my_account: Личный кабинет
 sylius.ui.process_your_orders: Ваши заказы
+sylius.ui.returns_policy: Замена товара
+sylius.ui.search_products: Поиск товаров
 sylius.ui.subtotal: Сумма
 sylius.ui.taxons: Каталог
-sylius.ui.search_products: Поиск товаров
-sylius.ui.variant: Элемент
+sylius.ui.terms_and_conditions: Публичная оферта
+sylius.ui.there_are_no_reviews: Нет отзывов
+sylius.ui.view_more: Подробнее
 sylius.ui.view_your_store: Перейти в магазин
-sylius.ui.your_store: Магазин Виктис
+sylius.ui.write_your_own_review: Оставьте свой отзыв
