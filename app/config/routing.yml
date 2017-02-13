@@ -31,3 +31,4 @@ sylius_shop_product_index:
             paginate: 9
     requirements:
         slug: .+
+

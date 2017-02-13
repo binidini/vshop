@@ -6,8 +6,4 @@
     </h2>
     {{ render(url('sylius_shop_partial_taxon_index_by_code', {'code': 'category', 'template': '@SyliusShop/Taxon/_horizontalList.html.twig'})) }}
 
-    <h2 class="ui horizontal section divider header">
-        Акции и скидки
-    </h2>
-    {{ render(url('sylius_shop_partial_product_index_latest', {'count': 6, 'template': '@SyliusShop/Product/_horizontalList.html.twig'})) }}
 {% endblock %}
