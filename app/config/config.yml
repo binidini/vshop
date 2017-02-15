@@ -116,4 +116,4 @@ liip_imagine:
                     position: center
         sylius_shop_taxon_thumbnail:
             filters:
-                thumbnail: { size: [450, 318], mode: outbound }
+                thumbnail: { size: [550, 389], mode: outbound }
