@@ -1,10 +1,10 @@
-<div class="ui three column stackable grid">
+<div class="ui four column stackable grid">
     <div class="row">
         {% for product in products %}
             <div class="column">
                 {% include '@SyliusShop/Product/_box.html.twig' %}
             </div>
-    {% if 0 == loop.index % 3 %}
+    {% if 0 == loop.index % 4 %}
     </div>
     <div class="row">
     {% endif %}
