@@ -18,10 +18,13 @@
 <div class="ui divider"></div>
 <div class="ui small images">
     {% for image in product.images %}
-    {% set path = image.path is not null ? image.path|imagine_filter('sylius_shop_product_small_thumbnail') : 'http://placehold.it/200x141' %}
-    <a href="{{ image.path|imagine_filter('sylius_shop_product_original') }}" class="ui image" data-lightbox="sylius-product-image">
-        <img src="{{ path }}" />
-    </a>
+        {% if loop.index > 1 %}
+            {% set path = image.path is not null ? image.path|imagine_filter('sylius_shop_product_small_thumbnail') : 'http://placehold.it/200x141' %}
+            <a href="{{ image.path|imagine_filter('sylius_shop_product_original') }}" class="ui image" data-lightbox="sylius-product-image">
+                <img src="{{ path }}" />
+            </a>
+        {% endif %}
     {% endfor %}
 </div>
 {% endif %}
+
