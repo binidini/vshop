@@ -1,9 +1,15 @@
 <div class="ui basic segment">
     <div class="ui three column stackable grid">
         <div class="column">
-            <a href="{{ path('sylius_shop_homepage') }}"><img src="{{ asset('/logo.png') }}" alt="Виктис" class="ui small image" /></a>
+            <a href="{{ path('sylius_shop_homepage') }}"  class="ui header">
+                <img src="{{ asset('/logo.png') }}" alt="Виктис" class="ui small image" />
+                <div class="content">&nbsp;
+                    <div class="sub header">в Санкт-Петербурге</div>
+                </div>
+            </a>
         </div>
         <div class="column">
+            <span class="ui header">(812) 715-52-53<br/>(812) 715-23-23</span>
         </div>
         <div class="right aligned column">
             {{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_widget.html.twig'})) }}

@@ -1,9 +1,9 @@
 {% if taxon.imageByCode('thumbnail') is not null %}
     {% set path = taxon.imageByCode('thumbnail').path|imagine_filter(filter|default('sylius_shop_taxon_thumbnail')) %}
 {% elseif taxon.images.first %}
-    {% set path = taxon.images.first.path|imagine_filter(filter|default('sylius_shop_taxon_thumbnail')) %}
+    {% set path = taxon.images.first.path|imagine_filter(filter|default('sylius_shop_product_large_thumbnail')) %}
 {% else %}
-    {% set path = 'http://placehold.it/450x318' %}
+    {% set path = 'http://placehold.it/550x389' %}
 {% endif %}
 
 <img src="{{ path }}" alt="" class="ui bordered image" />
