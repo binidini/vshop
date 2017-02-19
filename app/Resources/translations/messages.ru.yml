@@ -2,6 +2,7 @@ sylius.form.checkout.addressing.different_billing_address: Использова�
 sylius.form.collection.delete: Удалить
 sylius.form.product_attribute.position: Номер позиции
 sylius.form.promotion_rule.total_of_items_from_taxon.taxon: Каталог
+sylius.form.shipping_method.position: Порядковый номер
 sylius.form.variant.depth: Длина
 
 sylius.ui.about: О нас
@@ -15,6 +16,8 @@ sylius.ui.customer_care: Наши контакты
 sylius.ui.customer_login: Вход
 sylius.ui.delete: Удалить
 sylius.ui.delivery_and_shipping: Доставка и оплата
+sylius.ui.display: Сортировать
+sylius.ui.exchange_rates: Курсы валют
 sylius.ui.faqs: Вопросы и ответы
 sylius.ui.item.choice: '{0} |[1,Inf], %count% шт.'
 sylius.ui.manage_categorization_of_your_products: Настроить категорию товаров
