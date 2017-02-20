@@ -3,3 +3,6 @@ sylius.order.delete: Заказ успешно удален
 sylius.resource.add: Товар добавлен
 sylius.resource.remove: Товар удален
 sylius.resource.update: Заказ изменен
+sylius.user.verify_email_request: Отправлено письмо на Ваш электронный адрес
+
+

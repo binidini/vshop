@@ -1,38 +1,61 @@
-sylius.form.checkout.addressing.different_billing_address: Использовать другой адрес для выставления счета?
+sylius.form.checkout.addressing.different_billing_address: Информация о плательщике отличается от получателя?
 sylius.form.collection.delete: Удалить
 sylius.form.product_attribute.position: Номер позиции
 sylius.form.promotion_rule.total_of_items_from_taxon.taxon: Каталог
 sylius.form.shipping_method.position: Порядковый номер
 sylius.form.variant.depth: Длина
 
+sylius.menu.shop.account.dashboard: Настройки
+
 sylius.ui.about: О нас
 sylius.ui.accept: Принять
+sylius.ui.apply_coupon: Применить
 sylius.ui.attributes: Характеристики
+sylius.ui.billing_address: Ионформация о плательщике
 sylius.ui.browse_all_products: Просмотреть все товары
-sylius.ui.by_position: По умолчанию
+sylius.ui.browse_your_orders_from_the_past: Список всех Ваших заказов
+sylius.ui.by_position: По популярности
+sylius.ui.by_price_asc: По увеличению цены
+sylius.ui.by_price_desc: По уменьшению цены
 sylius.ui.checkout: Оформить заказ
+sylius.ui.checking_out_as: Добро пожаловать,
 sylius.ui.clear: Сброс
 sylius.ui.customer_care: Наши контакты
 sylius.ui.customer_login: Вход
 sylius.ui.delete: Удалить
 sylius.ui.delivery_and_shipping: Доставка и оплата
 sylius.ui.display: Сортировать
+sylius.ui.enter_your_code: Введите код купона
 sylius.ui.exchange_rates: Курсы валют
 sylius.ui.faqs: Вопросы и ответы
+sylius.ui.fill_in_your_billing_and_shipping_addresses: Заполните ваш адрес для доставки товара
+sylius.ui.fulfilled: Завершен
+sylius.ui.info: Информация
 sylius.ui.item.choice: '{0} |[1,Inf], %count% шт.'
-sylius.ui.manage_categorization_of_your_products: Настроить категорию товаров
+sylius.ui.items: шт
+sylius.ui.manage_categorization_of_your_product: Настроить категорию товаров
 sylius.ui.manage_configuration_options_of_your_products: Настроить опцию продукта
 sylius.ui.manage_taxons: Настроить каталог
 sylius.ui.my_account: Личный кабинет
+sylius.ui.newest_first: По новизне
 sylius.ui.order_total: Итого
-sylius.ui.my_account: Личный кабинет
+sylius.ui.position: Порядковый номер
 sylius.ui.process_your_orders: Ваши заказы
+sylius.ui.purchased_from: Канал
+sylius.ui.quick_search: Быстрый подбор
 sylius.ui.returns_policy: Замена товара
+sylius.ui.save_positions: Сохранить порядковый номер
+sylius.ui.search: Найти
 sylius.ui.search_products: Поиск товаров
+sylius.ui.shipping_address: Информация о получателе
 sylius.ui.subtotal: Сумма
 sylius.ui.taxons: Каталог
 sylius.ui.terms_and_conditions: Публичная оферта
 sylius.ui.there_are_no_reviews: Нет отзывов
 sylius.ui.view_more: Подробнее
 sylius.ui.view_your_store: Перейти в магазин
+sylius.ui.view_your_order_or_change_payment_method: Просмотреть и оплатить заказ онлайн
+sylius.ui.verify: Подтвердить email
+sylius.ui.you_can_no_longer_change_payment_method_of_this_order: Заказ уже обработан
+sylius.ui.with_rating_first: По рейтингу
 sylius.ui.write_your_own_review: Оставьте свой отзыв
