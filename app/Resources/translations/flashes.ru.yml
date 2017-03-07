@@ -1,5 +1,8 @@
 sylius.customer.update: Клиент успешно изменен
 sylius.order.delete: Заказ успешно удален
 sylius.resource.add: Товар добавлен
+sylius.resource.create: Успешно создан
 sylius.resource.remove: Товар удален
 sylius.resource.update: Заказ изменен
+sylius.user.verify_email: Ваш электронный адрес подтвержден.
+sylius.user.verify_email_request: Отправлено письмо на Ваш электронный адрес
