@@ -1,0 +1,15 @@
+<div class="two fields">
+    {{ form_row(form.firstName) }}
+    {{ form_row(form.lastName) }}
+</div>
+{{ form_row(form.street, {'label': 'Адрес'}) }}
+
+<div hidden="hidden">
+    {% include '@SyliusShop/Common/Form/_countryCode.html.twig' with {'form': form.countryCode} %}
+
+    <div class="two fields">
+        {{ form_row(form.city, {'label': ' ', 'value': 'Санкт-Петербург' }) }}
+        {{ form_row(form.postcode, {'label': ' ', 'value': '197000' }) }}
+    </div>
+</div>
+{{ form_row(form.phoneNumber, {'required': true}) }}
