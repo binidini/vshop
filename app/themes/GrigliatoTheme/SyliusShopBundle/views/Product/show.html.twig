@@ -1,0 +1,38 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+{% include '@SyliusShop/Product/Show/_breadcrumb.html.twig' %}
+<div class="ui hidden divider"></div>
+
+<div class="ui two column stackable grid">
+    <div class="column">
+        {% include '@SyliusShop/Product/Show/_images.html.twig' %}
+    </div>
+    <div class="column">
+        {% include '@SyliusShop/Product/Show/_header.html.twig' %}
+        {% include '@SyliusShop/Product/Show/_reviews.html.twig' %}
+        <div class="ui stackable grid">
+            <div class="four wide column">
+                {% if not product.variants.empty() %}
+                {% include '@SyliusShop/Product/Show/_price.html.twig' %}
+                {% endif %}
+            </div>
+            <!--div class="twelve wide right aligned column">
+                <span class="ui sub header">{{ product.code }}</span>
+            </div-->
+        </div>
+        <div class="ui basic segment">
+            <p>{{ product.shortDescription | raw }}</p>
+        </div>
+        {% if product.isConfigurable() and product.getVariantSelectionMethod() == 'match' and not product.variants.empty() %}
+            {% include '@SyliusShop/Product/Show/_variantsPricing.html.twig' with {'pricing': sylius_product_variant_prices(product, sylius.channel)} %}
+        {% endif %}
+        {% include '@SyliusShop/Product/Show/_inventory.html.twig' %}
+        <div class="ui hidden divider"></div>
+    </div>
+</div>
+{% include '@SyliusShop/Product/Show/_tabs.html.twig' %}
+{% include '@SyliusShop/Product/Show/_associations.html.twig' %}
+{% endblock %}
