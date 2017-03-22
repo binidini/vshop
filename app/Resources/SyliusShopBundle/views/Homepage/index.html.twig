@@ -1,9 +1,9 @@
 {% extends '@SyliusShop/layout.html.twig' %}
 
 {% block content %}
-    <h2 class="ui horizontal section divider header">
+    <!--h2 class="ui horizontal section divider header">
         Строительные материалы
-    </h2>
+    </h2-->
     {{ render(url('sylius_shop_partial_taxon_index_by_code', {'code': 'category', 'template': '@SyliusShop/Taxon/_horizontalList.html.twig'})) }}
 
 {% endblock %}
